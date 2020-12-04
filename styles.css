@@ -1,0 +1,365 @@
+@charset "utf-8";
+body,ul,li,h2{
+	margin:0px;
+	padding:0px;
+}
+
+* { box-sizing: border-box; }
+
+a{
+    color: #EC8965;
+   
+}
+a:hover{
+	color:#FBF7F5;
+}
+
+/***********-------typography------*******/
+body{
+	font-family: 'Lora', serif;
+	sont-size:1em;
+}
+
+h1,h2{
+    font-family: 'Pinyon Script', cursive;
+    font-weight: 500;
+    color: #FBF7F5;
+    margin: auto;
+	text-align: center;
+}
+
+h1{ font-size: 5.5em;
+	padding-top: 55px;
+    padding-bottom: 30px;
+}
+	
+#winter h2{
+	font-size:3em;
+	padding-top:60px;
+	padding-bottom:80px;
+	background-repeat: no-repeat;
+    background-image: url(images/winter-header.png);
+    background-position: center bottom;
+	
+}
+
+#winter h3{
+	text-align: center;
+	font-size:2em;
+	margin: 1.2em 50px;
+	font-family:'Lora', serif;
+	color:#FBF7F5;
+}
+
+
+
+
+p{
+	font-size:1.2em;
+	font-family:'Lora', serif;
+	color:#FBF7F5;
+	padding:0px 50px;
+}
+
+/***********---------header---------******/
+header{
+    height:700px;
+    background-image: url(images/kelly-sikkema-hSPVuakrJqs-unsplash.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.top{
+	position: absolute;
+    top:10px;
+	right:10px;
+	display:flex;	
+}
+
+.top li{
+    list-style-type: none;	
+	padding:5px;
+	
+}
+header nav ul li{ 
+    text-decoration: none;
+    list-style-type: none;
+   /* border: 1px solid #404C59;
+    border-radius:8px;*/
+    background-color: #404C59;
+	width:200px;
+	padding:12px 25px;
+	font-size:1.1em;
+	color:#FBF7F5;
+	margin:10px auto;
+	text-align: center;
+}
+img{
+	margin:-20px 10px
+}
+
+/***-------winter section------******/
+
+#winter{
+    background-color: #3E4C5A;
+	padding-bottom: 70px;
+	position:relative;
+      	
+	
+}
+
+#qoute{
+	visibility:hidden;
+	position:absolute;
+	
+}
+
+#images{
+    background-color: #262626;
+	position:relative;
+	height:700px;
+	margin:30px 0px 20px 0px;
+}
+
+#topleft{
+	width:39vw;
+	height:310px;
+	top:40px;
+	left:10px;
+	
+	
+}
+
+#bottomleft{
+	width:39vw;
+	height:310px;
+	bottom:40px;
+	left:10px;
+
+	
+}
+
+#topright{
+	width:45vw;
+	height:250px;
+	top:40px;
+	right:10px;
+
+}
+
+#bottomright{
+	width:45vw;
+	height:376px;
+	bottom:40px;
+	right:10px;
+	
+	
+}
+
+.Bimg{
+    border: 7px solid #626262;
+    border-radius: 6px;
+	position:absolute;
+}
+
+
+/******----------instagram-------********/
+#instagram h2{
+	background-color: #BF6E50;
+	font-size:3em;
+	padding:20px;
+	text-align: center;
+}
+
+
+.lookbook{
+    height: 760px;
+    background-image: url(images/instagram-background.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#short,#short1{
+	height:470px;
+}
+
+.lookbook img{
+    width: 78vw;
+    margin: 80px 11vw 0px;
+    -webkit-box-shadow: 4px 2px 27px 4px #222A32;
+    box-shadow: 4px 2px 27px 4px #222A32;
+}
+
+.lookbook h3{
+	color:#FBF7F5;
+	font-size:1.4em;
+	margin:10px 11vw;
+}
+
+#coat{
+    background-image: url(images/Coat.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#cardigan{
+    background-image: url(images/cardigan.png);
+    background-repeat: no-repeat;
+    background-position: right top;	
+}
+
+#boots{
+    background-image: url(images/boots.png);
+    background-repeat: no-repeat;
+    background-position: right top;	
+}
+/*****------------Paris-------*******/
+#paris h2{
+	font-family:'Lora', serif;
+	padding:150px 20px;
+	font-weight:600;
+	font-size:13vw;
+	text-align: start;
+	position:relative;	
+	
+}
+
+#header{
+	position:absolute;
+	top:210px;
+	left:35vw;
+	
+
+}
+
+span{
+	font-family:'Pinyon Script', cursive;
+    font-weight: 500;
+	
+	
+}
+
+
+
+#paris{
+    background-color: #3E4C5A;
+    height: 1200px;
+    background-image: url(images/effel.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+	position: relative;
+
+   
+}
+
+#paris p{
+	text-align: start;
+	padding:30px 15px;
+	font-size:1.9em;
+	color:#FBF7F5;
+}
+
+#paris ul{
+	padding:0px 40px;
+}
+
+#paris li{
+    padding:30px 0px;
+    list-style-type: circle;
+	line-height: 1.5em;
+	font-size:1.3em;
+	color:#FBF7F5;
+}
+
+#paris #signature{
+	font-family:'Miss Fajardose', cursive;
+	font-size:3em;
+	font-weight:500;
+	position:absolute;
+	right:5vw;
+	bottom:.5vh;
+}
+
+/********----------Footer-------********/
+
+footer{
+    
+    background-image: url(images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+	padding:100px 60px;
+	
+}
+
+
+
+
+
+#social{
+	display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	width:100%;
+	
+	
+}
+#social li{
+  
+    list-style-type: none;
+	padding:50px 20px ;
+}
+
+
+#social a{
+    color: #FBF7F5;
+   
+}
+#social a:hover{
+	color:#79A0C5;
+}
+
+footer ul{
+	display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+footer li{
+    list-style-type: none;
+   
+}
+footer a{
+	color:#79A0C5;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
