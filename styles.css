@@ -340,7 +340,7 @@ footer a{
 
 @media only screen and (min-width: 580px){
 	/*******------header------******/
-	#container{
+	#page{
     background-image: url(images/tablet-header.jpg);
     background-repeat: no-repeat;
     background-position: left top;
@@ -573,6 +573,22 @@ footer a{
 		left:-4vw;
 		bottom:100px;
 		padding:0px;
+	}
+/******--------footer------****/
+	footer{
+		margin-top:50px;
+		padding-top:50px;
+		background-image:none;
+		background-color:#3E4C5A; 
+		display:flex;
+		
+	}
+	#bq{display:block;}
+
+	
+	.container{
+		order:2;
+		
 	}
 }
 
