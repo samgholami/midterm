@@ -105,6 +105,7 @@ header nav ul li{
     background-color: #3E4C5A;
 	padding-bottom: 70px;
 	position:relative;
+	
       	
 	
 }
@@ -121,21 +122,22 @@ header nav ul li{
 	position:relative;
 	height:700px;
 	margin:30px 0px 20px 0px;
+	
 }
 
 #topleft{
-	width:39vw;
+	width:42vw;
 	height:310px;
-	top:40px;
+	top:30px;
 	left:10px;
 	
 	
 }
 
 #bottomleft{
-	width:39vw;
+	width:42vw;
 	height:310px;
-	bottom:40px;
+	bottom:30px;
 	left:10px;
 
 	
@@ -144,7 +146,7 @@ header nav ul li{
 #topright{
 	width:45vw;
 	height:250px;
-	top:40px;
+	top:30px;
 	right:10px;
 
 }
@@ -152,7 +154,7 @@ header nav ul li{
 #bottomright{
 	width:45vw;
 	height:376px;
-	bottom:40px;
+	bottom:30px;
 	right:10px;
 	
 	
@@ -162,6 +164,7 @@ header nav ul li{
     border: 7px solid #626262;
     border-radius: 6px;
 	position:absolute;
+	
 }
 
 
@@ -272,7 +275,7 @@ span{
 	font-size:1.3em;
 	color:#FBF7F5;
 }
-
+#paris img{visibility:hidden;}
 #paris #signature{
 	font-family:'Miss Fajardose', cursive;
 	font-size:3em;
@@ -368,6 +371,7 @@ footer a{
 		left:0px;
 	    top:-200px;
 		z-index: 100;
+		width:22vw;
 		
 	}
 	
@@ -378,6 +382,8 @@ footer a{
 	position:relative;
 	margin-left:5vw;
 	height:1080px;
+    -webkit-box-shadow: 8px -10px 0px 10px #3E4C5A;
+    box-shadow: -8px 8px 0px 10px hsla(210,18%,30%,0.26);
       	
 	
 }
@@ -419,7 +425,7 @@ footer a{
 }
 
 #topleft{
-	width:305px;
+	width:40vw;
 	height:310px;
 	top:30px;
 	left:3vw;
@@ -435,7 +441,8 @@ footer a{
 }
 
 #topright{
-	width:305px;
+	visibility: hidden;
+	width:40vw;
 	height:250px;
 	top:484px;
     left:50vw;
@@ -443,7 +450,7 @@ footer a{
 }
 
 #bottomright{
-	width:305px;
+	width:40vw;
 	height:376px;
 	top:360px;
     left:3vw;
@@ -457,8 +464,116 @@ footer a{
 	position:absolute;
 }
 	
+/********-------instagram-----********/
+
+	#instagram{
+    background-color: #3E4C5A;
+    margin: 80px 8vw 80px 0px;
+    padding: 10px 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 1fr 1fr 1fr 1fr;
+    -webkit-box-shadow: 8px -10px 0px 10px #BF6E50;
+    box-shadow: 8px -15px 0px 10px hsla(16,46%,53%,0.36);
+	}
 	
+	#instagram h2{
+    background-color: #3E4C5A;
+    font-size: 4.5em;
+    grid-column: 1/3;
+    background-image: url(images/h2instagram.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+	}
 	
+	.lookbook{
+		background-image: none;
+		margin:10px 25px;
+		height:380px;
+	
+		
+		
+	}
+	
+	.lookbook img{
+		width:100%;
+		height:95%;
+		margin:0px;
+		
+		
+	}
+	
+	.lookbook h3{
+	margin:20px 0px 0px 0px;
+	font-size:1.1em;
+	}
+	#coatgrid{
+		grid-column:1/2;
+		grid-row:2/4;
+	}
+	#cardigangrid{
+		grid-column:2/3;
+		grid-row:2/4;
+	}
+	#bootgrid{
+		grid-column:2/3;
+		grid-row:4/6;
+	}
+
+	#short{
+		grid-column:1/2;
+		grid-row:4/5;
+		height:60%;
+	}
+	
+	#short1{
+		grid-column:1/2;
+		grid-row:5/6;
+		height:60%;
+		
+	}
+	#Earring,#scarf{
+		margin-top:10px;
+	}	
+	
+/********---------paris-----*********/
+
+	#header{
+		top:125px;
+		left:37vw;
+		font-size:10vw;
+	}
+	#paris{
+		background-image:none;
+		background-color:#BF6E50;
+		margin-left:8vw;
+		padding-left:10vw;
+		height:950px;
+		-webkit-box-shadow: 8px -10px 0px 10px #3E4C5A;
+        box-shadow: -8px -15px 0px 10px hsla(210,18%,30%,0.95);
+	}
+	#paris h2{
+		padding:50px 20px;
+	}
+	#paris ul{
+		padding-left:30vw;
+	}
+	#paris ul li{
+		padding:20px 0px;
+	}
+	#paris img{
+		visibility:visible;
+		position:absolute;
+		left:-8vw;
+		top:400px;
+		width:40vw;
+		height:500px;
+	}
+	#signature{
+		left:-4vw;
+		bottom:100px;
+		padding:0px;
+	}
 }
 
 
@@ -469,7 +584,17 @@ footer a{
 
 
 
+@media only screen and (min-width: 750px){
+	
+	#topright{
+	visibility:visible;
+	width:40vw;
+	height:250px;
+	top:484px;
+    left:50vw;
 
+}
+}
 
 
 
