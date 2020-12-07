@@ -15,10 +15,11 @@ a:hover{
 }
 
 /***********-------typography------*******/
-body{
+#page{
 	font-family: 'Lora', serif;
 	sont-size:1em;
-}
+	
+  }
 
 h1,h2{
     font-family: 'Pinyon Script', cursive;
@@ -62,6 +63,7 @@ p{
 }
 
 /***********---------header---------******/
+
 header{
     height:700px;
     background-image: url(images/kelly-sikkema-hSPVuakrJqs-unsplash.jpg);
@@ -341,6 +343,7 @@ footer a{
 @media only screen and (min-width: 580px){
 	/*******------header------******/
 	#page{
+	display:block;
     background-image: url(images/tablet-header.jpg);
     background-repeat: no-repeat;
     background-position: left top;
@@ -502,7 +505,9 @@ footer a{
 		
 		
 	}
-	
+	#coat ,#cardigan ,#boots{
+	background-image: none;
+	}
 	.lookbook h3{
 	margin:20px 0px 0px 0px;
 	font-size:1.1em;
@@ -565,9 +570,9 @@ footer a{
 		visibility:visible;
 		position:absolute;
 		left:-8vw;
-		top:400px;
+		top:390px;
 		width:40vw;
-		height:500px;
+		height:55vh;
 	}
 	#signature{
 		left:-4vw;
@@ -602,20 +607,144 @@ footer a{
 
 @media only screen and (min-width: 750px){
 	
-	#topright{
-	visibility:visible;
-	width:40vw;
-	height:250px;
-	top:484px;
-    left:50vw;
+  #page{
+    background-image: url(images/desktop-background.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+/*****-----winter-----*******/
+  #topright{
+  visibility:visible;
+  width:40vw;
+  height:250px;
+  top:484px;
+  left:45vw;
 
 }
+
+  #topleft{
+      width:285px;
+      height:310px;
+      top:30px;
+      left:3vw;
+
+
+  }
+
+  #bottomleft{
+      visibility:visible;
+      position: absolute;
+	  width:140px;
+	  height:200px;
+	  top:240px;
+	  left:25vw;
+	  z-index: 100;
+
+
+  }
+
+ 
+  #bottomright{
+      width:285px;
+      height:376px;
+      top:360px;
+      left:3vw;
+
+
+  }
+/*********------istagram------*******/
+	#instagram{
+      background-color: #3E4C5A;
+      margin: 80px 8vw 80px 0px;
+	  display:flex;
+	  flex-wrap:wrap;
+	  justify-content: center;
+      padding: 10px 10px 20px;
+      -webkit-box-shadow: 8px -10px 0px 10px #BF6E50;
+      box-shadow: 8px -15px 0px 10px hsla(16,46%,53%,0.36);
+    }
+	.lookbook{
+		width:25%;
+		height: 350px;
+		margin:20px;
+	}
+	.lookbook h3{
+		/*margin:20px 0px;*/
+	}
+	
+	#short ,#short1{
+		margin:80px 40px 50px;
+		width:35%;
+	}
+	#instagram h2{
+		width:100%;
+	}
+	
+/*****-------paris-----******/
+	#paris img{
+		left:-6vw;
+		width:38vw;
+	}
+	#signature{
+		left:1vw;
+	}	
 }
 
 
 
 
 
+@media only screen and (min-width: 960px){
+	#page{
+    width: 960px;
+    margin: auto;
+    border: 2px solid #1F252A;
+	}
+	body{
+		background-color: #222A32;
+	}
+	 #topright{
+        width:384px;
+        left:450px;
+
+      }
+
+   #bottomleft{
+  	  left:250px;
+	  }
+	#float{
+		margin-left:400px;
+	}
+	
+	#img2{
+		width:215px;
+	}
+ 
+/*********------istagram------*******/
+	#instagram{
+	  padding:10px 50px;
+	}
+	
+	
+/*****-------paris-----******/
+	#paris img{
+		left:-50px;
+		width:380px;
+	}
+	#paris h2{
+		font-size:7em;
+	}	
+	#header{
+      left: 325px;
+;     font-size:80px;
+	}
+	#paris{
+		padding-left:50px;
+	}
+	#paris ul{
+		padding-left:360px;
+	}
+}
 
 
 
