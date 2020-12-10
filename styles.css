@@ -180,18 +180,19 @@ header nav ul li{
 
 
 .lookbook{
-    height: 760px;
+    height: auto;;
     background-image: url(images/instagram-background.jpg);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 
 #short,#short1{
-	height:470px;
+	height:auto;
 }
 
 .lookbook img{
     width: 78vw;
+	height:auto;
     margin: 80px 11vw 0px;
     -webkit-box-shadow: 4px 2px 27px 4px #222A32;
     box-shadow: 4px 2px 27px 4px #222A32;
@@ -200,25 +201,27 @@ header nav ul li{
 .lookbook h3{
 	color:#FBF7F5;
 	font-size:1.4em;
-	margin:10px 11vw;
+	padding:10px 0px;
+	margin:0px auto;
+	width:70vw;
 }
 
 #coat{
     background-image: url(images/Coat.png);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right center;
 }
 
 #cardigan{
     background-image: url(images/cardigan.png);
     background-repeat: no-repeat;
-    background-position: right top;	
+    background-position:right center;
 }
 
 #boots{
     background-image: url(images/boots.png);
     background-repeat: no-repeat;
-    background-position: right top;	
+    background-position: right center;	
 }
 /*****------------Paris-------*******/
 #paris h2{
@@ -284,7 +287,7 @@ span{
 	font-weight:500;
 	position:absolute;
 	right:5vw;
-	bottom:.5vh;
+	bottom:0px;
 }
 
 /********----------Footer-------********/
@@ -294,7 +297,8 @@ footer{
     background-image: url(images/footer.jpg);
     background-repeat: no-repeat;
     background-position: left top;
-	padding:100px 60px;
+	padding:100px 40px;
+	text-align: center;
 	
 }
 
@@ -305,14 +309,16 @@ footer{
 #social{
 	display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	width:100%;
+	width:60%;
+	margin: auto;
+	
 	
 	
 }
 #social li{
-  
+    
     list-style-type: none;
-	padding:50px 20px ;
+	padding:20px 5px ;
 }
 
 
@@ -330,6 +336,7 @@ footer ul{
   }
 footer li{
     list-style-type: none;
+	padding:30px 5px 15px;
    
 }
 footer a{
@@ -470,9 +477,9 @@ footer a{
 /********-------instagram-----********/
 
 	#instagram{
+	
     background-color: #3E4C5A;
     margin: 80px 8vw 80px 0px;
-    padding: 10px 10px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 120px 1fr 1fr 1fr 1fr;
@@ -482,25 +489,27 @@ footer a{
 	
 	#instagram h2{
     background-color: #3E4C5A;
-    font-size: 4.5em;
+    font-size: 3.95em;
     grid-column: 1/3;
     background-image: url(images/h2instagram.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+	
+	
 	}
 	
 	.lookbook{
 		background-image: none;
-		margin:10px 25px;
-		height:380px;
+		margin:10px;
+	
 	
 		
 		
 	}
 	
 	.lookbook img{
-		width:100%;
-		height:95%;
+		width:35vw;
+		height:auto;
 		margin:0px;
 		
 		
@@ -509,8 +518,9 @@ footer a{
 	background-image: none;
 	}
 	.lookbook h3{
-	margin:20px 0px 0px 0px;
+	margin:20px 0px 0px;
 	font-size:1.1em;
+	width:35vw;
 	}
 	#coatgrid{
 		grid-column:1/2;
@@ -528,13 +538,13 @@ footer a{
 	#short{
 		grid-column:1/2;
 		grid-row:4/5;
-		height:60%;
+		height:50%;
 	}
 	
 	#short1{
 		grid-column:1/2;
 		grid-row:5/6;
-		height:60%;
+		height:50%;
 		
 	}
 	#Earring,#scarf{
@@ -572,13 +582,13 @@ footer a{
 		left:-8vw;
 		top:390px;
 		width:40vw;
-		height:55vh;
+		height:auto;
 	}
-	#signature{
+	#paris #signature{
 		left:-4vw;
-		bottom:100px;
+		bottom:90px;
 		padding:0px;
-	}
+	 }
 /******--------footer------****/
 	footer{
 		margin-top:50px;
@@ -655,38 +665,44 @@ footer a{
 /*********------istagram------*******/
 	#instagram{
       background-color: #3E4C5A;
-      margin: 80px 8vw 80px 0px;
+      margin: 80px 70px 80px 0px;
+	 
 	  display:flex;
 	  flex-wrap:wrap;
-	  justify-content: center;
-      padding: 10px 10px 20px;
+		justify-content: center;
       -webkit-box-shadow: 8px -10px 0px 10px #BF6E50;
       box-shadow: 8px -15px 0px 10px hsla(16,46%,53%,0.36);
     }
-	.lookbook{
-		width:25%;
-		height: 350px;
-		margin:20px;
+	.lookbook img{
+		width:200px;
+		height: auto;
+		
 	}
 	.lookbook h3{
-		/*margin:20px 0px;*/
+		margin:20px 0px;
+		width:200px;
 	}
 	
-	#short ,#short1{
-		margin:80px 40px 50px;
-		width:35%;
+	#short img ,#short1 img{
+		margin:0px 20px;
+		width:250px;
+	}
+	#short h3,#short1 h3{
+		width:250px;
 	}
 	#instagram h2{
-		width:100%;
+		width:70vw;
 	}
 	
 /*****-------paris-----******/
 	#paris img{
 		left:-6vw;
-		width:38vw;
+		width:300px;
+		height:500px;
 	}
-	#signature{
-		left:1vw;
+	#paris #signature{
+		left:2vw;
+		bottom:20px;
 	}	
 }
 
@@ -694,9 +710,9 @@ footer a{
 
 
 
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: 900px){
 	#page{
-    width: 960px;
+    width: 900px;
     margin: auto;
     border: 2px solid #1F252A;
 	}
@@ -719,11 +735,7 @@ footer a{
 	#img2{
 		width:215px;
 	}
- 
-/*********------istagram------*******/
-	#instagram{
-	  padding:10px 50px;
-	}
+	
 	
 	
 /*****-------paris-----******/
