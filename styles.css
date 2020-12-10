@@ -318,7 +318,7 @@ footer{
 #social li{
     
     list-style-type: none;
-	padding:20px 5px ;
+	padding:0px 5px;
 }
 
 
@@ -333,16 +333,85 @@ footer{
 footer ul{
 	display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin:0px 0px 30px;
   }
 footer li{
     list-style-type: none;
-	padding:30px 5px 15px;
+	padding:30px 5px 5px;
    
 }
 footer a{
 	color:#79A0C5;
 	text-decoration: none;
 }
+
+.container {
+  padding: 16px;
+}
+.row{
+	/*width:60vw;
+	heigh:auto;*/
+}
+#col{
+  width:80%;
+  padding: 10px;
+  margin: 10px ;
+  display: inline-block;
+  border: none;
+  background: #1972E7;
+  border-radius: 8px;
+  border: 1px solid #1972E7;
+	
+}
+#col .fa-facebook, #col a{
+	color:#ffffff;
+}
+.label{
+text-align: left;	
+	
+}
+input[type=text], input[type=password] {
+  width:80%;
+  padding: 10px;
+  margin: 10px ;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #F1F1F1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+   
+}
+
+
+
+#signup{
+  background-color: #BE6F50;
+  color: white;
+  padding: 10px 18px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%%;
+  opacity: 0.9;
+  border-radius: 8px;
+  border: 3px solid #A24D2E;
+}
+
+#signup:hover {
+  opacity: 1;
+}
+
+#hide-md-lg{
+    background-image: url(images/or.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 
 
 
@@ -382,6 +451,7 @@ footer a{
 	    top:-200px;
 		z-index: 100;
 		width:22vw;
+		
 		
 	}
 	
@@ -592,7 +662,7 @@ footer a{
 /******--------footer------****/
 	footer{
 		margin-top:50px;
-		padding-top:50px;
+		padding-top:10px;
 		background-image:none;
 		background-color:#3E4C5A; 
 		display:flex;
@@ -603,7 +673,22 @@ footer a{
 	
 	.container{
 		order:2;
+		flex-basis: 60%;
 		
+	}
+	footer ul{
+		display:block;
+		
+	}
+	
+	footer ul li{
+		text-align: left;
+	}
+	#flex{
+		flex-basis: 40%;
+	}
+	#social{
+		margin:0px;
 	}
 }
 
